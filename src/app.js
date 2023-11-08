@@ -4,7 +4,6 @@ import "./style.css";
 
 window.onload = function() {
   // Enlazamos la variable excuse con el ID del HTML
-  let excuseVariable = document.getElementById("excuse");
 
   // Creamos los array con las diferentes palabras.
   let who = ["The dog", "My grandma", "His turtle", "My bird"];
@@ -15,7 +14,7 @@ window.onload = function() {
     "right on time",
     "when I finished",
     "during my lunch",
-    "while I was praying"
+    "while I was praying",
   ];
 
   // Generamos palabras random de cada array
@@ -28,5 +27,5 @@ window.onload = function() {
   let newExcuse = `${randomWho} ${randomAction} ${randomWhat} ${randomWhen}`;
 
   // Conectamos el ID del HTML con la nueva variable donde irán las excusas.
-  excuseVariable.innerHTML = newExcuse;
+  document.getElementById("excuse").innerHTML = newExcuse;
 };
