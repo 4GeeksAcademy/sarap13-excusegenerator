@@ -1,1 +1,5 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+body {
+  font-family: "Playpen Sans", cursive, "Tilt Neon", sans-serif;
+}
